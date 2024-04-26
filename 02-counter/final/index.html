@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Counter 1</h1>
+        <span id="value1">0</span>
+        <div class="button-container">
+          <button class="btn decrease" data-counter="1">decrease</button>
+          <button class="btn reset" data-counter="1">reset</button>
+          <button class="btn increase" data-counter="1">increase</button>
+        </div>
+      </div>
+      // se agregra el segundo contador
+      <div class="container">
+        <h1>Counter 2</h1>
+        <span id="value2">0</span>
+        <div class="button-container">
+          <button class="btn decrease" data-counter="2">decrease</button>
+          <button class="btn reset" data-counter="2">reset</button>
+          <button class="btn increase" data-counter="2">increase</button>
+        </div>
+      </div>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
